@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../storage_images/encode/encode.ico" type="image/x-icon">
+    <title>Pseudo-Classes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .pseudo {
+            display: inline-block;
+            background-color: #881616;
+            border: 10px solid #eafa06;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div#d1:hover {
+            background-color: #00ff00;
+            border: 2px solid #0400ff;
+            border-radius: 100px;
+        }
+
+        div#d2:hover {
+            background-color: #eeff00;
+            border-radius: 100px;
+        }
+
+        div#d3:hover {
+            background-color: #00f7ff;
+            border-radius: 100px;
+        }
+
+        .d1tit:hover {
+            font-size: 50px;
+            font-weight: bolder;
+            color: #8d0760;
+        }
+
+        /* ------------------------------------------- */
+
+        a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: #2e8b2e;
+        }
+
+        a:hover {
+            color: springgreen;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: darkblue;
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 10px;
+            color: lightgray;
+        }
+
+        .especial {
+            background-color: #a0a6f3;
+            color: lime;
+        }
+
+        .especial::after {
+            content: '  ⇐';
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 20px;
+            color: #23fc07;
+        }
+
+        .especial::before {
+            content: '⇒  ';
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 20px;
+            color: #23fc07;
+        }
+
+        /* ------------------------------------------- */
+
+        div>p {
+            display: none;
+            width: 150px;
+        }
+
+        div:hover>p {
+            display: block;
+            color: #ffffff;
+            background-color: #ff0000;
+        }
+
+        div:hover {
+            color: #ff0000;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <p>Exemplos de Utilização de CSS</p>
+        </h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>
+                    <p>Pseudo-Classes</p>
+                </h2>
+            </div>
+            <div>
+                <div id="d1" class="pseudo d1tit">01</div>
+                <div id="d2" class="pseudo">02</div>
+                <div id="d3" class="pseudo">03</div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>
+                    <p>Personalizando LINKS</p>
+                </h2>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+                    <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do
+                            Youtube</a></li>
+                    <li><a href="https://cursoemvideo.com" target="_blank">Site do Curso em Vídeo</a></li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>
+                    <p>Exemplo de hover</p>
+                </h2>
+            </div>
+            <div>
+                <p>Passe o mouse sobre o texto abaixo</p>
+                <div>Passe o mouse AQUI!
+                    <p>TEXTO OCULTO...</p>
+                </div>
+
+                <p>Fim do exemplo</p>
+
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>

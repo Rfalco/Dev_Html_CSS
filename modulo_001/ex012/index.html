@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="../../storage_images/encode/encode.ico" type="image/x-icon">
+   <title>Áudio</title>
+</head>
+
+<body>
+
+   <header>
+      <div>
+         <p>Reproduzindo Áudio</p>
+      </div>
+   </header>
+
+   <main>
+      <section>
+         <div>
+            <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+         </div>
+         <div>
+            <p>Fast and Run - Nico Staf</p>
+            <p>
+               <!-- -->
+               <audio src="../../storage_audio/Fast_and_Run_Nico_Staf.mp3" autoplay controls></audio>
+            </p>
+         </div>
+
+      </section>
+      <hr>
+      <section>
+         <div>
+            <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+         </div>
+         <div>
+            <p>Swoosh.mp3</p>
+            <p>
+               <audio preload="metadata" autoplay controls loop>
+                  <source src="../../storage_audio/Swoosh.mp3" type="audio/mpeg">
+                  <source src="../../storage_audio/Swoosh.ogg" type="audio/ogg">
+                  <source src="../../storage_audio/Swoosh.wav" type="audio/wav">
+                  Infelizmente seu navegador não consegue reproduzir áudio.
+                  <a href="../../storage_audio/Swoosh.mp3">Clique aqui para baixar o arquivo MP3
+               </audio>
+            </p>
+         </div>
+      </section>
+   </main>
+
+</body>
+
+</html>

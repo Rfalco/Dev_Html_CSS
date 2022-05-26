@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../storage_images/encode/encode.ico" type="image/x-icon">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            /* box-level */
+
+            /* para alterar a característica de BOX bast utilizar display: inline; */
+
+
+            background-color: #d3d3d3;
+            height: 300px;
+            width: 300px;
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: #2f4f4f;*/
+            border: 10px solid #2f4f4f;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+            padding: 10px;
+
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;*/
+            margin: 20px auto 40px;
+            /*margin: auto;*/
+            /*  para centralizar uma caixa na tela*/
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: #ee82ee;*/
+            outline: 5px dashed #ee82ee;
+        }
+
+        h1>p {
+            font-size: 0.5em;
+        }
+
+        span {
+            /* inline-level*/
+
+            /* para alterar a característica de INLINE bast utilizar display: block; */
+
+
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: #ff0000;*/
+            border: 2px solid #ff0000;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+            padding: 1px;
+
+        }
+
+        a {
+            /* inline-level*/
+
+            /* para alterar a característica de INLINE bast utilizar display: block; */
+
+
+            /*border-width: 10px;
+    border-style: solid;
+    border-color: #ff0000;*/
+            border: 10px solid #ff0000;
+
+            /*padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;*/
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Exemplo de caixa box-level
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut debitis minima inventore optio nobis dolorem id
+            tenetur quibusdam <span>aliquid odit quas</span>, quos reiciendis alias beatae cum distinctio voluptas a ad
+            eligendi consequuntur excepturi harum veritatis laborum at. Facilis quas ab reprehenderit, voluptatum sunt
+            animi, cum molestias inventore, excepturi provident sapiente!</p>
+    </h1>
+
+    <p>
+        Parágrafos também são exemplos de box-level, mas os
+        <a href="">links são exemplos de caixas inline-level</a>.
+        Vamos ver como tudo isso funciona.
+    </p>
+</body>
+
+</html>

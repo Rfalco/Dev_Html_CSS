@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="../../storage_images/encode/encode.ico" type="image/x-icon">
+   <title>Imagens flexíveis</title>
+</head>
+
+<body>
+
+   <header>
+      <div>
+         <p>Imagem dinâmica</p>
+      </div>
+   </header>
+
+   <main>
+      <div>
+         <section>
+            <div>
+               <p>Teste abrir esse em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+                  navegador. Do maior para o menor.</p>
+            </div>
+         </section>
+         <section>
+            <div>
+               <p>
+                  <picture>
+                     <source media="(max-width: 750px )" srcset="../../storage_images/modulo_01/foto-p.png"
+                        type="image/png">
+                     <source media="(max-width: 1050px )" srcset="../../storage_images/modulo_01/foto-m.png"
+                        type="image/png">
+                     <img src="../../storage_images/modulo_01/foto-g.png" alt="Imagem flexível">
+                  </picture>
+               </p>
+            </div>
+         </section>
+         <section>
+            <section>
+               <div>
+                  <p>Teste abrir esse em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do
+                     seu
+                     navegador. Do menor para o maior.</p>
+               </div>
+            </section>
+            <div>
+               <p>
+                  <picture>
+                     <source media="(min-width: 1050px )" srcset="../../storage_images/modulo_01/foto-g.png"
+                        type="image/png">
+                     <source media="(min-width: 750px )" srcset="../../storage_images/modulo_01/foto-m.png"
+                        type="image/png">
+                     <img src="../../storage_images/modulo_01/foto-p.png" alt="Imagem flexível">
+                  </picture>
+               </p>
+            </div>
+         </section>
+      </div>
+   </main>
+
+   <footer>
+      <div>
+         <p>
+         <h6>Aula 011</h6>
+         </p>
+      </div>
+   </footer>
+
+</body>
+
+</html>

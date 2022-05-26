@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../storage_images/encode/encode.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+
+    <style>
+        /* https://www.dafont.com/pt/tesla.font */
+        @font-face {
+            font-family: 'Encode Tesla';
+            src: url('../../storage_fonts/TESLA.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .imgencode {
+            width: 25px;
+            height: 25px;
+            margin: 0 10px 0 5px;
+        }
+
+        .footencode {
+            font-family: 'Encode Tesla';
+            font-size: 15px;
+            color: #BA1C1B;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 20px;
+        }
+
+        nav {
+            background-color: rgba(102, 102, 102, 0.5);
+            padding: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+            border-radius: 0 0 8px 13px;
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            margin-left: 15px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 5px;
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article>aside {
+            background-color: rgba(102, 102, 102, 0.5);
+            text-align: right;
+            color: rgb(129, 7, 7);
+            padding: 2px;
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+            border-radius: 50px 1px;
+        }
+
+        footer>p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam atque similique possimus,
+                    explicabo hic deleniti laudantium ab. Neque, aspernatur? Vel soluta suscipit maiores porro vero
+                    architecto est nam provident. </p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <img src="../../storage_images/encode/encode_32x32.png" alt="" class="imgencode"><span
+                class="footencode">ENCODE Tech</span> </p>
+    </footer>
+
+</body>
+
+</html>

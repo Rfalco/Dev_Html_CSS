@@ -1,0 +1,174 @@
+/* https://www.dafont.com/pt/tesla.font */
+@font-face {
+    font-family: 'Encode Tesla';
+    src: url('../fonts/TESLA.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    background-color: rgb(80, 80, 80);
+    background-color: #1A5C37;
+    text-align: center;
+    padding: 5px;
+}
+
+.foottext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+}
+
+.footlink {
+    text-decoration: none;
+    color: #BA1C1B;
+}
+
+.imgencode {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 0 5px;
+}
+
+.footencode {
+    font-family: 'Encode Tesla';
+    font-size: 15px;
+    color: #BA1C1B;
+}
+
+.footlink:hover {
+    color: #F7E400;
+    text-decoration: yellow;
+}
+
+/*=================================================================*/
+@font-face {
+    font-family: 'iDroid';
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #83E1AD, #3DDC84, #2FA866, #355C47, #1A5C37);
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 5px 5px 10px 5px #000000;
+}
+
+h1 {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-size: 2.9em;
+    font-style: normal;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.tithead {
+    padding: 10px;
+}
+
+.txthead {
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+nav {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bolder;
+    padding: 15px 10px 5px;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    background-color: #83E1AD;
+}
+
+section {
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+}
+
+h2.titpri {
+    font-family: iDroid;
+    font-size: 1.8em;
+    color: #1A5C37;
+    padding: 15px 15px 5px 15px;
+}
+
+p.txtwin {
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 10px 15px;
+    text-indent: 1.5em;
+}
+
+h3.titsub {
+    display: inline-block;
+    width: 70%;
+    margin: 5px 15px;
+    color: #1A5C37;
+    font-family: iDroid;
+    background-image: linear-gradient(to right, #83E1AD, #ffffff);
+}
+
+img.imgdroid, img.imgIrina {
+    width: 95%;
+    height: 95%;
+}
+p.paragimg{
+    text-align: center;
+    justify-content: center;
+}
+
+.vidfundo{
+    background-color: #1A5C37;
+}
+
+iframe{
+    width: 70vw;
+    height: 30vh;
+}
+p.vidwin{
+    text-align: center;
+    justify-content: center;
+    padding: 15px 5px;
+}
+
+.listwin{
+    background-color: #83E1AD;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.listtit{
+    display: flexbox;
+    background-color: #2FA866;
+    color: #ffffff;
+    padding: 10px;
+}

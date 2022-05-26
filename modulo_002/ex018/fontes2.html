@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../storage_images/encode/encode.ico" type="image/x-icon">
+    <title>Fontes externas</title>
+
+    <style>
+        /*
+    
+    - Tipos de format(''):
+        'opentype' = .otf
+        'truetype' = .ttf
+        embedded-opentype
+        'truetype' = .aat (Apple Advanced Typography)
+        svg
+    */
+
+        /* https://www.dafont.com/pt/alien-remix.font?text=ENCODE&back=theme */
+        @font-face {
+            font-family: 'Encode';
+            src: url('../../storage_fonts/Alien\ Remix.ttf') format('truetype'), url('../../storage_fonts/Alien\ Remix.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Encode Italic';
+            src: url('../../storage_fonts/Alien\ Remix\ Italic.ttf') format('truetype'), url('../../storage_fonts/Alien\ Remix\ Italic.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* https://www.dafont.com/pt/elektronik.font?text=ENCODE+Tech&back=theme */
+        @font-face {
+            font-family: 'Encode2';
+            src: url('../../storage_fonts/Elektronik.ttf') format('truetype'), url('../../storage_fonts/Elektronik.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Encode2 Italic';
+            src: url('../../storage_fonts/Elektronik\ Italic.ttf') format('truetype'), url('../../storage_fonts/Elektronik\ Italic.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* https://www.dafont.com/pt/tesla.font */
+        @font-face {
+            font-family: 'Encode Tesla';
+            src: url('../../storage_fonts/TESLA.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* https://www.dafont.com/pt/blade-runner-movie-font.font?text=ENCODE+Tech&back=theme */
+        @font-face {
+            font-family: 'Encode Runner';
+            src: url('../../storage_fonts/BLADRMF_.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*  https://www.dafont.com/pt/hemicube.font?text=ENCODE+Tech&psize=l&back=theme  */
+        @font-face {
+            font-family: 'Encode Cube1';
+            src: url('../../storage_fonts/HemicubeLogo_PERSONAL_USE_ONLY.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*  https://www.dafont.com/pt/hemicube.font?text=ENCODE+Tech&psize=l&back=theme  */
+        @font-face {
+            font-family: 'Encode Cube2';
+            src: url('../../storage_fonts/Hemicube_PERSONAL_USE_ONLY.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: #000;
+        }
+
+        .txtfnt1 {
+            font-family: 'Encode', Times, serif;
+        }
+
+        .txtfnt2 {
+            font-family: 'Encode Italic', Times, serif;
+        }
+
+        .txtfnt3 {
+            font-family: 'Encode2', Times, serif;
+        }
+
+        .txtfnt4 {
+            font-family: 'Encode2 Italic', Times, serif;
+        }
+
+        .txtfnt5 {
+            font-family: 'Encode Tesla', Times, serif;
+        }
+
+        .txtfnt6 {
+            font-family: 'Encode Runner', Times, serif;
+        }
+
+        .txtfnt7 {
+            font-family: 'Encode Cube1', Times, serif;
+        }
+
+        .txtfnt8 {
+            font-family: 'Encode Cube2', Times, serif;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        div#cores>span {
+            color: #294697;
+            font-size: 5em;
+        }
+
+        div#logo>span {
+            font-size: 15em;
+        }
+
+        /*primárias*/
+        .p_branco {
+            background-color: black;
+            color: #FFFFFF;
+            padding: 10px;
+        }
+
+        .p_amarelo {
+            color: #FEF100;
+        }
+
+        .p_azul {
+            color: #294697;
+        }
+
+        .p_vermelho {
+            color: #FE0000;
+        }
+
+        /*secundárias*/
+        .s_verde {
+            color: #23B551;
+        }
+
+        .s_roxo {
+            color: #7B1FA0;
+        }
+
+        .s_laranja {
+            color: #FE8F00;
+        }
+
+        /*terciárias*/
+        .t_verde {
+            color: #89E23B;
+        }
+
+        .t_verde_esc {
+            color: #198E7B;
+        }
+
+        .t_roxo {
+            color: #AB31AA;
+        }
+
+        .t_laranja {
+            color: #F85201;
+        }
+
+        .t_amarelo {
+            color: #FDCC00;
+        }
+
+
+        /**/
+        .z_vermelho {
+            color: #E01D26;
+        }
+
+        .z_verde {
+            color: #01A54E;
+        }
+
+        .z_azul {
+            color: #332E82;
+        }
+
+        .z_amarelo {
+            color: #FEF100;
+        }
+
+        .z_ciano {
+            color: #00AEF0;
+        }
+
+        .z_magenta {
+            color: #ED038B;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <p>Como adicionar fontes externas</p>
+        </h1>
+    </header>
+    <div id="cores">
+
+        <br><br><br><br>
+        <p><strong>Alien Remix Italic</strong></p>
+        <span class="txtfnt1">ENCODE</span>
+        <br><br><br><br>
+        <p><strong>Alien Remix Italic</strong></p>
+        <span class="txtfnt2">ENCODE</span>
+        <br><br><br><br>
+        <p><strong>Elektronik</strong></p>
+        <span class="txtfnt3">ENCODE</span>
+        <br><br><br><br>
+        <p><strong>Elektronik Italic</strong></p>
+        <span class="txtfnt4">ENCODE</span>
+        <br><br><br><br>
+        <p><strong>Tesla</strong></p>
+        <span class="txtfnt5">ENCODE</span>
+        <br><br><br><br>
+        <p><strong>Blade Runner</strong></p>
+        <span class="txtfnt6">ENCODE</span>
+        <br><br><br><br>
+        <p><strong>Hemi Cube Logo</strong></p>
+        <span class="txtfnt7">ENCODE</span>
+        <br><br><br><br>
+        <p><strong>Hemi Cube</strong></p>
+        <span class="txtfnt8">ENCODE</span>
+    </div>
+    <!-- https://www.youtube.com/watch?v=i_c5Fzk807M&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=17&ab_channel=CursoemV%C3%ADdeo -->
+    <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br>
+    <div id="logo">
+        <br><br><br><br>
+        <span class="txtfnt7 p_branco">O</span>
+        <br><br><br><br>
+        <span class="txtfnt7 p_amarelo">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 p_azul">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 p_vermelho">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 s_laranja">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 s_roxo">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 s_verde">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 t_amarelo">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 t_laranja">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 t_roxo">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 t_verde">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 t_verde_esc">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 z_amarelo">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 z_azul">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 z_ciano">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 z_magenta">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 z_verde">O</span>
+        <br><br><br><br>
+        <br><br><br><br>
+        <span class="txtfnt8 z_vermelho">O</span>
+        <br><br><br><br>
+    </div>
+
+</body>
+
+</html>
